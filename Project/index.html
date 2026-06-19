@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Gaming Quiz</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="quiz-container">
+    <h1>🎮 CSE Quiz</h1>
+
+    <div class="top-bar">
+        <div id="timer">⏱️ 10</div>
+        <div id="progressText">1/10</div>
+    </div>
+
+    <div class="progress-bar">
+        <div id="progress"></div>
+    </div>
+
+    <div id="question"></div>
+    <div id="answers"></div>
+
+    <button id="nextBtn">Next ➡️</button>
+
+    <div id="result" class="hidden"></div>
+
+    <button onclick="toggleDarkMode()" class="dark-btn">🌙 Toggle</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
